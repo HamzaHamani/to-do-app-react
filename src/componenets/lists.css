@@ -1,0 +1,31 @@
+.listsContainer {
+  /* background-color: red; */
+  border: #137186 solid 1px;
+  width: 60%;
+  /* height: auto; */
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.listsContainer h2 {
+  letter-spacing: 1.3px;
+  font-size: 24px;
+}
+.iconContainer {
+  display: flex;
+  gap: 10px;
+}
+.iconContainer div {
+  font-size: 25px;
+  cursor: pointer;
+  /* background-color: rgb(34, 34, 34); */
+  width: 35px;
+  font-size: 20px;
+  padding: 6.5px;
+  height: 35px;
+  border-radius: 100px;
+  box-shadow: 0 0 10px 0 rgba(112, 238, 245, 0.411);
+}
+
+.iconContainer svg {
+}
